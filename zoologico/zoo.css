@@ -1,0 +1,91 @@
+body {
+    background-color: violet;
+    margin: 0px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 35px;
+ 
+}
+section {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Patrick Hand', cursive;
+    color: rgb(250, 251, 252);
+    text-shadow: 0.1em 0.2em 0em #00000050;
+    
+}
+
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-top: 0px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 245px);
+    grid-template-rows: repeat(2, 245px);
+}
+
+button {
+    margin: 20px;
+    border-radius: 35px;
+    padding: 0;
+    border: none;
+    box-shadow: 15px 10px 0px 5px #00000033;
+}
+
+.boton:active {
+    background-color: #00000033;
+}
+
+#popup {
+    width: 50%;
+    height: 80%;
+    background-color: white;
+    color: darkgrey;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 22px;
+    position: absolute;
+    left: 23%;
+    top: 7%;
+    display: none;
+}
+
+#img-div {
+    width: 40%;
+    height: 60%;
+    margin-top: 20px;
+}
+
+#parrafo {
+    color: rgb(70, 88, 88);
+    font-size: 2em;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: 600;
+    margin-top: 70px;
+}
+
+#close {
+    width: 10%;
+    height: auto;
+    display: flex;    
+    position: absolute;
+    top: 20px;
+    left: 650px;
+
+}
